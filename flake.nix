@@ -1,7 +1,7 @@
 {
   description = "nixpkgs with the unfree bits enabled";
 
-  inputs.nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable-small";
+  inputs.nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
   # inputs.nixpkgs.url = "path:/home/dominik/Nix/Nixpkgs";
 
   nixConfig.extra-substituters = [ "https://numtide.cachix.org" ];
